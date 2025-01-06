@@ -1,0 +1,241 @@
+@media  (max-width:1440px) {
+    
+    #btn{
+        padding: 1em;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(4, auto);
+        gap: 8px;   
+        /* background-color: hsl(223, 31%, 20%); */
+        border-radius: .5em .5em 0px 0px;           
+    }
+    .s_btn:hover{
+        background-color: hsl(223, 63%, 80%);
+        color: hsl(0, 0%, 100%);
+        font-size:small;
+    }
+}
+
+
+
+.main{
+    
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   flex-wrap: wrap;
+   
+}
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+
+/* .theme{
+    background-color: ;
+} */
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width:44vh;
+}
+.t1{
+    color: hsl(0, 0%, 100%);
+}
+.t-main{
+    height: 15px;
+    width: 60px;
+    border: 2.5px solid hsl(224, 36%, 15%);
+    border-radius: 9px;
+    position: relative;
+    background-color: hsl(223, 31%, 20%);
+    
+}
+.t-sub{
+    height: 12px;
+    width: 12px;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 50%;
+    position:absolute;
+    cursor: pointer;
+}
+/* .sub-container{
+    display: flex;
+} */
+.sub-container1{
+    display: flex;
+    gap: 2em;
+    
+}
+.sub-container2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.d-in-ot{
+    height: 6rem;
+    width:43vh;
+    border: 3px solid hsl(224, 36%, 15%);
+    border-radius: .2em;
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size:32px;
+    text-align: right;
+    margin-bottom: .5em;
+    
+}
+
+.d-in-ot:hover{
+    background-color: hsl(223, 31%, 20%);
+}
+.disp{
+    width: auto;
+}
+.container2{
+    width: 40vh;
+ padding: 1em;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(4, auto);
+  gap: 8px;   
+    background-color: hsl(223, 31%, 20%);
+    border-radius: .5em .5em 0px 0px;
+       
+}
+.n_key{
+    height: 40px;
+    width: 60px;
+    border-radius: .5em;
+    font-weight: 800;
+   background-color: hsl(30, 25%, 89%);
+   cursor: pointer;
+   
+}
+.n_key:hover{
+     background-color: hsl(30, 25%, 89%);
+}
+.s_btn:hover{
+    background-color: hsl(223, 63%, 80%);
+    color: hsl(0, 0%, 100%);
+    font-size:small;
+    cursor: pointer;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    background-color: hsl(223, 31%, 20%);
+    padding-bottom: 1em;
+    border-radius: 0px 0px .5em .5em;
+    
+}
+.container3>button{
+width: 40%;
+}
+.btn{
+    width: 47%;
+    
+}
+.equal:hover{
+    background-color: hsl(6, 63%, 50%);
+    cursor: pointer;
+}
+
+.theme_1{
+    background-color: hsl(0, 0%, 90%);
+   
+}
+.theme_2{
+    background-color: hsl(268, 75%, 9%);
+}
+.theme_1font_color{
+    color: hsl(0, 0%, 0%);
+}
+.theme_1continerback{
+    background-color: hsl(0, 5%, 81%);
+    /* border:1px solid hsl(0, 5%, 81%); */
+}
+.theme_1font_color:hover{
+    background-color: hsl(185, 42%, 37%);
+}
+.theme_1ani{
+    margin-left: 22px;
+    animation-duration: 5s;
+}
+.theme_2ani{
+    margin-left: 44px;
+    animation-duration: 5s;
+}
+.theme2_d{
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(0, 0%, 0%);
+}
+.theme2_d:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+.theme2_btn{
+    background-color: hsl(45, 7%, 89%) ;
+    box-shadow: hsl(35, 11%, 61%);
+}
+.theme2_btn_hover{
+    background-color:  hsl(185, 58%, 25%);
+    box-shadow:  hsl(185, 58%, 25%);
+    color:  hsl(0, 0%, 100%);
+}
+.theme2_btn_hover:hover{
+    background-color:  hsl(185, 42%, 37%);
+}
+.theme2_btn1_hover{
+    background-color: hsl(25, 99%, 27%);
+
+}
+.theme2_btn1_hover:hover{
+    background-color: hsl(25, 98%, 40%);
+}
+.theme3_font{
+    color: hsl(52, 100%, 62%);
+}
+.theme3_background{
+    background-color: hsl(268, 71%, 12%);
+}
+.theme3_background_d{
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+
+}
+.theme3_background_d:hover{
+    background-color: hsl(268, 71%, 12%);
+
+}
+.theme3_btn_background{
+    background-color: hsl(268, 47%, 21%) ;
+    box-shadow:  hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
+.theme3_btn_background:hover{
+    background-color: hsl(268, 71%, 12%);
+}
+.theme3_btn_background_new{
+    background-color: hsl(281, 89%, 26%);
+    color: hsl(0, 0%, 100%);
+}
+.theme3_btn_background_new:hover{
+    background-color:hsl(285, 91%, 52%) ;
+}
+.theme3_equal_color{
+    background-color: hsl(177, 92%, 70%);
+    color: hsl(0, 0%, 3%);
+}
+.theme3_equal_color:hover{
+    background-color: hsl(176, 100%, 44%);
+}
